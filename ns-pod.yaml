@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: ns-pod
+  namespace: clahandevops
+spec:
+  containers:
+   - name: my-container1
+     image: nemika666/user-img:latest
+     ports:
+       - containerPort: 80
+      
